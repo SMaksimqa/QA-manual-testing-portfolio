@@ -1,4 +1,4 @@
-# QA-manual-testing-portfolio
+# QA-manual-testing-portfolio  🚀
 QA, manual testing, фиксирую баги, тест кейсы, самообучение  
 
 Junior Manual & Automation QA Engineer (self-taught).
