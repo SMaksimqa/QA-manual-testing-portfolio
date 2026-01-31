@@ -15,7 +15,7 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
   - [Bug #4: Несогласованная валидация спецсимволов в поиске (ozon mobile web)](bug-reports/bug-4-ozon-search-special-chars.md).
 
 - [Test Cases](test-cases/login-flow.md) — пример тест-кейсов на login flow (positive + negative)
-- [Automation Examples](automation/)
+- [Automation Examples](automation/) (in process)
 
 Contact: [@high24 TG , liveestar24@gmail.com]
 
