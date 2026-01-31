@@ -5,9 +5,15 @@ Junior Manual & Automation QA Engineer (self-taught).
 
 Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postman basics.
 
+
 ## Projects / Examples
-- [Bug Reports](bug-reports/)  
-- [Test Cases](test-cases/)  
+
+- [Bug Reports](bug-reports/) — реальные баги из мобильного веб Kamkombank  
+  - [Bug #1: Mobile scroll не срабатывает с первого раза](bug-reports/bug-1-mobile-scroll-not-working.md)
+  - [Bug #2: Смещение элементов в калькуляторе кредита](bug-reports/bug-2-calculator-ui-shift.md)
+  - [Bug #3: ...] (добавишь третий позже)
+
+- [Test Cases](test-cases/login-flow.md) — пример тест-кейсов на login flow (positive + negative)
 - [Automation Examples](automation/)
 
 Contact: [@high24 TG , liveestar24@gmail.com]
