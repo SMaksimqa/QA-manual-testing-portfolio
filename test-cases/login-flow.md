@@ -1,31 +1,11 @@
 # Test Cases: Login Flow on demoqa.com
 
-## Test Case 1: Valid Login (Positive Scenario)
+## Summary
+Testing login functionality on https://demoqa.com/login  
+Focus: Positive and negative scenarios for username/password validation.
 
-- Preconditions: User is on login page with valid credentials available
-- Steps:
-  1. Enter valid username
-  2. Enter valid password
-  3. Click Login
-- Expected Result: User is redirected to dashboard / profile page
-- Actual Result: Redirect to dashboard (test passed)
-
-## Test Case 2: Invalid Password (Negative Scenario)
-
-- Preconditions: User is on login page with valid username
-- Steps:
-  1. Enter valid username
-  2. Enter invalid password
-  3. Click Login
-- Expected Result: Error message is displayed (e.g. "Invalid username or password"), no redirect to dashboard
-- Actual Result: Error message "Invalid username or password" is shown, page stays on login form
-
-## Test Case 3: Invalid Username (Negative Scenario)
-
-- Preconditions: User is on login page
-- Steps:
-  1. Enter invalid username
-  2. Enter any password
-  3. Click Login
-- Expected Result: Error message is displayed (e.g. "Invalid username or password"), no redirect
-- Actual Result: Error message "Invalid username or password" is shown, page stays on login form
+| Test Case ID | Test Case Name              | Preconditions                          | Steps                                                                 | Expected Result                                      | Actual Result                                      | Status   |
+|--------------|-----------------------------|----------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------|----------------------------------------------------|----------|
+| TC-001       | Valid Login (Positive)      | User is on login page with valid credentials | 1. Enter valid username<br>2. Enter valid password<br>3. Click Login | User is redirected to dashboard / profile page      | Redirect to dashboard (test passed)                | Passed   |
+| TC-002       | Invalid Password (Negative) | User is on login page with valid username    | 1. Enter valid username<br>2. Enter invalid password<br>3. Click Login | Error message "Invalid username or password" shown, no redirect | Error message "Invalid username or password" shown, page stays on login | Passed   |
+| TC-003       | Invalid Username (Negative) | User is on login page                        | 1. Enter invalid username<br>2. Enter any password<br>3. Click Login   | Error message "Invalid username or password" shown, no redirect | Error message "Invalid username or password" shown, page stays on login | Passed   |
