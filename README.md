@@ -9,8 +9,8 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
 ## Projects / Examples
 
 - [Bug Reports](bug-reports/) — реальные баги из мобильного веб Kamkombank  
-  - [Bug #1: Mobile scroll не срабатывает с первого раза](bug-reports/bug-1-mobile-scroll-not-working.md)
-  - [Bug #2: Смещение элементов в калькуляторе кредита](bug-reports/bug-2-calculator-ui-shift.md)
+  - [Bug #1: Mobile scroll не срабатывает с первого раза  kamkombank](bug-reports/bug-1-mobile-scroll-not-working.md)
+  - [Bug #2: Смещение элементов в калькуляторе кредита  kamkombank](bug-reports/bug-2-calculator-ui-shift.md)
   - [Bug #3: ...] (добавишь третий позже)
 
 - [Test Cases](test-cases/login-flow.md) — пример тест-кейсов на login flow (positive + negative)
