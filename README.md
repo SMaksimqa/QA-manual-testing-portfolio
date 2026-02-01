@@ -16,7 +16,7 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
 
 - [Test Cases](test-cases/) Тест кейсы demoqa ozon
   - [Test case #1: Пример тест-кейсов на login flow demoqa(positive + negative)](test-cases/login-flow.md). 
-  - [Test case #2: Фильтр по цене поиска Ozon (positive)](test-cases/ozon-web-search.md).
+  - [Test case #2: Фильтр по цене поиска Ozon (positive + negative)](test-cases/ozon-web-search.md).
 - [Automation Examples](automation/) (in process)
 
 Contact: [@high24 TG , liveestar24@gmail.com]
