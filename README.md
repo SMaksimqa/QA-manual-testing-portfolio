@@ -14,8 +14,8 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
   - [Bug #3: Цена обрезана в блоке "Рекомендовано для группы" (Booking.com mobile web)](bug-reports/bug-3-booking-price-cut.md).
   - [Bug #4: Несогласованная валидация спецсимволов в поиске (ozon mobile web)](bug-reports/bug-4-ozon-search-special-chars.md).
 
-- [Test Cases](test-cases/) Тест кейсы login flow ozon
-  - [Test case #1: Пример тест-кейсов на login flow (positive + negative)](test-cases/login-flow.md). 
+- [Test Cases](test-cases/) Тест кейсы demoqa ozon
+  - [Test case #1: Пример тест-кейсов на login flow demoqa(positive + negative)](test-cases/login-flow.md). 
   - [Test case #2: Фильтр по цене поиска Ozon (positive)](test-cases/ozon-web-search.md).
 - [Automation Examples](automation/) (in process)
 
