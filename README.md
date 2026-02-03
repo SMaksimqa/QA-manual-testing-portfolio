@@ -19,7 +19,7 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
   - [Test case #2: Фильтр по цене поиска Ozon (positive + negative)](test-cases/ozon-web-search.md).
 - [Automation Examples](automation/) (in process)
 ### API Testing (Postman)
-- [JSONPlaceholder Demo](postman/) — базовые запросы и тесты на открытом API
+- [JSONPlaceholder Demo](postman/) — базовые GET/POST запросы и тесты на статус и структуру данных на открытом API
 
 Contact: [@high24 TG , liveestar24@gmail.com]
 
