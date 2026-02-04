@@ -8,13 +8,13 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
 
 ## Projects / Examples
 
-- [Bug Reports](bug-reports/) — реальные баги из мобильного веба (Kamkombank, ozon, booking.com)  
+- [Bug Reports](bug-reports/) - реальные баги из мобильного веба (Kamkombank, ozon, booking.com)  
   - [Bug #1: Mobile scroll не срабатывает с первого раза  (kamkombank mobile web)](bug-reports/bug-1-mobile-scroll-not-working.md)
   - [Bug #2: Смещение элементов в калькуляторе кредита  (kamkombank mobile web)](bug-reports/bug-2-calculator-ui-shift.md)
   - [Bug #3: Цена обрезана в блоке "Рекомендовано для группы" (Booking.com mobile web)](bug-reports/bug-3-booking-price-cut.md).
   - [Bug #4: Несогласованная валидация спецсимволов в поиске (ozon mobile web)](bug-reports/bug-4-ozon-search-special-chars.md).
 
-- [Test Cases](test-cases/) Примеры тест кейсов
+- [Test Cases](test-cases/) - Примеры тест кейсов
   - [Test case #1: Пример тест-кейсов на login flow demoqa(positive + negative)](test-cases/login-flow.md). 
   - [Test case #2: Фильтр по цене поиска Ozon (positive + negative)](test-cases/ozon-web-search.md).
 
