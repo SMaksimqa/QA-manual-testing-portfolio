@@ -20,6 +20,7 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
 - [Automation Examples](automation/) (in process)
 ### API Testing (Postman)
 - [JSONPlaceholder Demo](postman/) — базовые GET/POST запросы и тесты на статус и структуру данных на открытом API
+- [Swagger Petstore](postman/swagger-petstore.postman_collection.json) — импорт из OpenAPI + тесты
 
 Contact: [@high24 TG , liveestar24@gmail.com]
 
