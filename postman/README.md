@@ -43,6 +43,12 @@
 ***DELETE запрос + статус 200*** 
 ![DELETE Post](screenshots/jsonplaceholder-delete.png)  
 
+## Результаты прогона коллекции (Collection Runner)
+***Все запросы прошли успешно, тесты зелёные*** 
+![Collection Runner — полный прогон всех запросов](screenshots/postman-runner-results.png)  
+
+
+
 
 
 Last updated: February 2026
