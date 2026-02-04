@@ -28,5 +28,21 @@
 2. Выбрать окружение  
 3. Запустить запросы
 
+## Скриншоты работы с Postman
+
+
+***GET запрос + зелёные тесты*** 
+![GET Posts List + тесты](screenshots/jsonplaceholder-get..png)  
+
+***POST создание поста + тесты*** 
+![POST Create Post](screenshots/jsonplaceholder-post.png)  
+
+***PUT обновление поста***
+![PUT Update Post](screenshots/jsonplaceholder-put.png)  
+
+***DELETE запрос + статус 200*** 
+![DELETE Post](screenshots/jsonplaceholder-delete.png)  
+
+
 
 Last updated: February 2026
