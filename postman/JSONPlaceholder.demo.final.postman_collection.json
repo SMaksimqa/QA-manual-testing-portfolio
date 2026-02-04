@@ -1,0 +1,128 @@
+{
+  "info": {
+    "_postman_id": "d58f91ef-fa78-44f6-a3d8-ff8b71805524",
+    "name": "JSONPlaceholder",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "39686573"
+  },
+  "item": [
+    {
+      "name": "GET Posts List",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// Тест 1: статус 200 OK\r",
+              "pm.test(\"Статус ответа 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});\r",
+              "\r",
+              "// Тест 2: время ответа меньше 1 секунды\r",
+              "pm.test(\"Время ответа меньше 1000 мс\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+              "});\r",
+              "\r",
+              "// Тест 3: ответ — массив постов\r",
+              "pm.test(\"Ответ содержит массив постов\", function () {\r",
+              "    pm.expect(pm.response.json()).to.be.an(\"array\");\r",
+              "    pm.expect(pm.response.json().length).to.be.at.least(1);\r",
+              "});\r",
+              "\r",
+              "// Тест 4: первый пост имеет title и body\r",
+              "pm.test(\"Первый пост имеет title и body\", function () {\r",
+              "    var firstPost = pm.response.json()[0];\r",
+              "    pm.expect(firstPost.title).to.be.a(\"string\");\r",
+              "    pm.expect(firstPost.body).to.be.a(\"string\");\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseURL}}/posts?_limit=5",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "posts"
+          ],
+          "query": [
+            {
+              "key": "_limit",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{baseURL}}/posts/",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status is 201 Created\", () => pm.response.to.have.status(201));\r",
+              "pm.test(\"Has new id\", () => pm.expect(pm.response.json().id).to.exist);\r",
+              "pm.test(\"Title matches\", () => pm.expect(pm.response.json().title).to.eql(\"Мой тестовый пост от maks\"));"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Мой тестовый пост от maks\",\r\n  \"body\": \"Это демонстрация POST-запроса в портфолио\",\r\n  \"userId\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/posts/",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "posts",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT Update Post",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE Post",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
