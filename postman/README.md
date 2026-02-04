@@ -16,4 +16,11 @@
 2. Выбрать окружение  
 3. Запустить запросы
 
+### Swagger Petstore (импорт из OpenAPI)
+- Коллекция создана из официального Swagger Petstore  
+- GET /pet/findByStatus — поиск питомцев  
+- POST /pet — создание питомца  
+- GET /pet/{petId} — получение одного питомца  
+- Тесты на статус, время ответа, структуру JSON
+
 Last updated: February 2026
