@@ -21,6 +21,11 @@ Stack: Manual testing, Bug reporting, Test cases, Python, Pytest, Selenium/Postm
 ### API Testing (Postman)
 - [JSONPlaceholder Demo](postman/) — GET, POST, PUT, DELETE + тесты на статус, время ответа и структуру данных на открытом API
 - [Swagger Petstore](postman/swagger-petstore.postman_collection.json) — импорт из коллекции Swagger + тесты GET/POST
+
+### SQL Examples — Расписание школы
+Примеры запросов на учебной базе SQL Academy (JOIN, GROUP BY, агрегация) 
+[Перейти в папку sql-examples](sql-examples/)  
+Скриншоты результатов выполнения
   
 
 Contact: [@high24 TG , liveestar24@gmail.com]
