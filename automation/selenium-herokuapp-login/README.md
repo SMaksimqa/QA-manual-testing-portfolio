@@ -5,7 +5,7 @@
 Небольшой проект автоматизации UI-тестирования страницы логина  
 https://the-internet.herokuapp.com/login
 
-Используемый стек:
+**Используемый стек:**
 - Python
 - Selenium WebDriver
 - Pytest
@@ -41,7 +41,26 @@ https://the-internet.herokuapp.com/login
 
 ## Как запустить проект
 
-1. Установить зависимости ***pip install -r requiremets.txt***
-2. Запустить тесты ***pytest***
-3. Сформировать Allure отчет ***pytest –alluredir=allure-results
-allure serve allure-results***
+1. Установить зависимости
+   ```bash
+   pip install -r requiremets.txt
+2. Запустить тесты
+   ```bash
+   pytest
+3. Сформировать Allure отчет
+   ```bash
+   pytest –alluredir=allure-results
+   allure serve allure-results
+
+## 📊 Allure Report
+
+Проект использует Allure для визуализации результатов тестирования.
+
+
+
+### Позитивный сценарий
+![Allure Success](screenshots/allure_positive.png)
+
+### Негативный сценарий
+![Allure Negative](screenshots/allure_negative.png)
+
