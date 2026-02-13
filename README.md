@@ -1,4 +1,4 @@
-# QA Engineer Portfolio — Максим
+# QA Engineer Portfolio
 
 Junior QA Engineer (Manual + Automation basics)
 
