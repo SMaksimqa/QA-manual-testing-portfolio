@@ -99,17 +99,13 @@ Self-taught + практика + курсы.
 
 ---
 
-## 🧰 QA Tools
+## 🧰 [QA Tools](tools/)
 
 - [DevTools](tools/devtools/)
 - [Charles](tools/charles/)
 - [Linux basics](tools/linux/)
 
----
 
-## 📊 Отчётность
-
-UI-автотесты используют Allure Report для визуализации результатов тестирования.
 
 ---
 
