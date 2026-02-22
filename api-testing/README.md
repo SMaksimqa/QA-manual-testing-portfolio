@@ -24,10 +24,24 @@
 2. Postman → Import → выбери файл
 3. Запусти коллекцию через Runner → Run all requests
 
-## Скриншот Runner с результатами тестов
+## Скриншоты 
 
-
-
+## Runner с результатами тестов
 ![Postman Runner JSONPlaceholder](screenshots/postman-runner-results.png)
+
+## GET Posts List  
+  ![GET Posts List](screenshots/jsonplaceholder-get..png)
+
+## POST Create Post  
+  ![POST Create Post](screenshots/jsonplaceholder-post.png)
+
+## PUT Update Post  
+  ![PUT Update Post](screenshots/jsonplaceholder-put.png)
+
+## DELETE Post  
+  ![DELETE Post](screenshots/jsonplaceholder-delete.png)
+
+
+
 
 
