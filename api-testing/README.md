@@ -28,6 +28,6 @@
 
 
 
-![Postman Runner JSONPlaceholder](postman-runner-results.png)
+![Postman Runner JSONPlaceholder](screenshots/postman-runner-results.png)
 
 
