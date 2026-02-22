@@ -101,7 +101,7 @@ Self-taught + практика + курсы.
 
 ## 🧰 [QA Tools](tools/)
 
-- [DevTools](tools/devtools/)
+- [DevTools](tools/devtools/) Анализ UI, запросов, локаторов
 - [Charles](tools/charles/)
 - [Linux basics](tools/linux/)
 
