@@ -1,119 +1,79 @@
 
 
 
-# QA-manual-testing-portfolio 🚀  
 
-Привет!  
-Здесь собраны реальные примеры моей практики в ручном и автоматизированном тестировании: баг-репорты, тест-кейсы, API-тестирование, UI-автоматизация, SQL и базовые инструменты QA.
 
-Junior QA Engineer (Manual + Automation)  
-Self-taught + практика + курсы.
+# QA Manual & Automation Portfolio 🚀
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=35&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Привет!+Я+Максим;Manual+QA+Engineer;Moscow+%7C+Manual+%2F+Exploratory+%2F+API+testing" alt="Typing SVG" />
+</p>
 
----
 
-## 🛠 Текущий стек
-
-- Ручное тестирование • Bug Reports • Test Cases  
-- Python • Pytest • Selenium  
-- Postman (REST API)  
-- SQL (JOIN, GROUP BY, фильтры)  
-- DevTools • Charles • Linux basics  
-- Allure Report  
+<p align="center">
+  <a href="https://t.me/hh24"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <a href="mailto:lis@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
 
 ---
 
-# 📂 Структура репозитория
+### Кто я в двух словах
 
-## 🔎 Manual Testing
+Junior QA Engineer (Manual + basics Automation, 2025+)  
+Self-taught + курсы + практика. Фокус: ручное тестирование, API, SQL, базовые UI-тесты.  
+Готов к ролям в Москве / Remote.
 
-### 📁 Bug Reports  
-Реальные баги, найденные в мобильном вебе:
-
-- [Booking](manual-testing/bug-reports/booking/)
-- [Kamkombank](manual-testing/bug-reports/kamkombank/)
-- [Ozon Web](manual-testing/bug-reports/ozon-web/)
-
-
-
-### 📁 Test Cases  
-Примеры тест-кейсов (positive + negative сценарии):
-
-- [Test Cases](manual-testing/test-cases/)
+Ключевые сильные стороны:  
+- Детальные, developer-friendly баг-репорты  
+- Тест-дизайн (boundary, negative, state transitions)  
+- Мобильный веб + Android (Charles)  
+- Accessibility basics (screen readers, contrast)  
 
 ---
 
-## 🤖 Automation (UI)
+### Что посмотреть в портфолио (самое ценное)
 
-### 📁 Selenium + Pytest + Allure  
-- [Herokuapp Login Test](automation/selenium-herokuapp-login/)
+| # | Что именно                              | Почему стоит глянуть                        | Путь в репо                                      | Инструменты / подход                     |
+|---|-----------------------------------------|---------------------------------------------|--------------------------------------------------|------------------------------------------|
+| 1 | Реальные баг-репорты (Booking, Ozon, Kamkombank) | Mobile Web баги, видео + скрины + воспроизведение | /manual-testing/bug-reports                      | Charles, DevTools            |
+| 2 | Чек-листы + тест-кейсы (e-commerce / fintech flows) | Полные user journeys, edge cases            | /manual-testing/checklists-test-cases            |  equivalence classes   |
+| 4 | API testing (Postman коллекции)         | CRUD, auth, negative, response validation   | /api-testing                                     | Postman, Charles proxy                   |
+| 5 | SQL для QA (data validation)            | Проверки после действий пользователя        | /sql                                             | PostgreSQL, joins, aggregates            |
+| 6 | Базовая UI-автоматизация (1 проект)     | Показываю, что базу знаю (Herokuapp login)  | /automation/selenium-basics                      | Selenium, Pytest, Allure — basics        |
+| 7 | Charles Proxy examples                  | Intercept, mock, throttling на реальном трафике | /tools/charles                                   | Charles для web/mobile testing           |
+| 8 | Linux basics                            | Команды, запуск тестов в Ubuntu             | /tools/linux                                     | WSL, bash скрипты                        |
 
-Покрыто:
-- Успешная авторизация
-- Неверный пароль
-- Явные ожидания (WebDriverWait)
-- Allure (epic / feature / story / severity / tags)
-
----
-
-## 🌐 API Testing (Postman)
-
-- [API Testing](api-testing/)
-
-Содержит:
-- JSONPlaceholder demo (GET / POST / PUT / DELETE)
-- Проверки статусов
-- Проверки структуры ответа
-- Проверки времени ответа
+→ [Вся структура репо](https://github.com/SMaksimqa/QA-manual-testing-portfolio/tree/main)
 
 ---
 
-## 🐍 Python Examples
+### Стек 
 
-- [Python Examples](python-examples/)
-
-Мини-проекты по основам Python:
-
-- Консольный калькулятор
-- Чётные числа от 1 до N
-- Создание файлов по числу N
-
-Темы:
-- Условия
-- Циклы
-- Функции
-- Работа со списками
-- Работа с файлами
-- Обработка ошибок
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-blue" alt="Python" />
+  <img src="https://img.shields.io/badge/Pytest-9.0-green" alt="Pytest" />
+  <img src="https://img.shields.io/badge/Selenium-4.0-yellow" alt="Selenium" />
+  <img src="https://img.shields.io/badge/Allure-Report-blue" alt="Allure" />
+  <img src="https://img.shields.io/badge/Postman-API-orange" alt="Postman" />
+  <img src="https://img.shields.io/badge/SQL-Basic-red" alt="SQL" />
+  <img src="https://img.shields.io/badge/Charles-Proxy-purple" alt="Charles" />
+  <img src="https://img.shields.io/badge/Linux-Basics-grey" alt="Linux" />
+</div>
 
 ---
 
-## 🗄 SQL
+### Планы 
 
-- [SQL Examples](sql/)
+- Углубить exploratory testing
+- Освоить pytest parametrize и fixture поглубже  
+- Больше реальных проектов (open-source testing)  
+ 
 
-Примеры запросов:
-- JOIN
-- GROUP BY
-- Фильтрация
-- Работа с агрегатами
-
----
-
-## 🧰 [QA Tools](tools/)
-
-- [DevTools](tools/devtools/) Анализ UI, запросов, локаторов
-- [Charles](tools/charles/)
-- [Linux basics](tools/linux/)
+Готов к Junior Manual QA ролям в Москве / Remote.  
+Пиши в Telegram @high24 — рад обсудить тестирование!
 
 
 
----
+Обновлено: March 2026
 
-## 📬 Контакты
 
-Telegram: @high24  
-Email: liveestar24@gmail.com  
 
----
-
-Last updated: March 2026
