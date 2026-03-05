@@ -24,6 +24,7 @@ This directory contains bash scripts, system configs, and documentation that dem
 -----
 
 ## 🚀 How to Run Scripts
+```bash
 # Clone the repo
 git clone https://github.com/SMaksimqa/QA-manual-testing-portfolio.git
 cd portfolio/linux/scripts 
@@ -36,6 +37,7 @@ chmod +x *.sh
 
 # Run backup (specify source and destination)
 ./backup.sh /home/user/projects /mnt/backup
+```
 
 > Tested on Ubuntu 22.04 LTS and Debian 12
 
