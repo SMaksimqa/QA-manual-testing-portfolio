@@ -1,1 +1,119 @@
+# crontab.txt — Cron job examples
 
+# Edit live crontab with: crontab -e
+
+# View current crontab:   crontab -l
+
+# Remove all cron jobs:   crontab -r
+
+# 
+
+# Format:
+
+# minute  hour  day-of-month  month  day-of-week  command
+
+# 0-59    0-23  1-31          1-12   0-7 (0=Sun)
+
+# 
+
+# Special strings:
+
+# @reboot   — run once at boot
+
+# @hourly   — every hour (0 * * * *)
+
+# @daily    — every day at midnight (0 0 * * *)
+
+# @weekly   — every Sunday midnight (0 0 * * 0)
+
+# @monthly  — first of month at midnight (0 0 1 * *)
+
+# ── System maintenance ────────────────────────────────────────────────────────
+
+# Update package index every Sunday at 3:00 AM
+
+0 3 * * 0   root   apt-get update -qq >> /var/log/apt-update.log 2>&1
+
+# Full system upgrade on the 1st of each month at 3:30 AM
+
+30 3 1 * *  root   apt-get upgrade -y >> /var/log/apt-upgrade.log 2>&1
+
+# Clean up old packages weekly
+
+0 4 * * 0   root   apt-get autoremove -y && apt-get autoclean >> /dev/null 2>&1
+
+# ── Backups ───────────────────────────────────────────────────────────────────
+
+# Daily backup of /var/www at 2:00 AM (keep 7 days, handled by backup.sh)
+
+0 2 * * *   user   /home/user/scripts/backup.sh /var/www /mnt/backup >> /var/log/backup.log 2>&1
+
+# Weekly database dump on Sundays at 1:00 AM
+
+0 1 * * 0   user   pg_dump mydb | gzip > /backup/db_$(date +%Y%m%d).sql.gz
+
+# Rotate DB backups: delete dumps older than 30 days
+
+0 5 * * *   user   find /backup -name ‘db_*.sql.gz’ -mtime +30 -delete
+
+# ── Monitoring ────────────────────────────────────────────────────────────────
+
+# Check disk usage every hour; alert if >80%
+
+0 * * * *   root   df -h | awk ‘$5+0 > 80 {print “DISK WARNING: “ $0}’ | mail -s “Disk Alert” admin@example.com
+
+# Restart nginx if it’s down (simple watchdog)
+
+*/5 * * * * root   systemctl is-active –quiet nginx || systemctl restart nginx
+
+# Log system stats every 15 minutes
+
+*/15 * * * * user  /home/user/scripts/system_info.sh –log >> /dev/null 2>&1
+
+# ── App-specific ──────────────────────────────────────────────────────────────
+
+# Clear temp files every night at midnight
+
+0 0 * * *   user   find /var/www/myapp/tmp -type f -mtime +1 -delete
+
+# Renew Let’s Encrypt SSL certificates (Certbot handles idempotency)
+
+0 12 * * *  root   certbot renew –quiet –post-hook “systemctl reload nginx”
+
+# ── Development helpers ───────────────────────────────────────────────────────
+
+# Run at system boot
+
+@reboot     user   /home/user/scripts/startup.sh >> /var/log/startup.log 2>&1
+
+# Every 5 minutes during business hours (Mon-Fri, 9-18)
+
+*/5 9-18 * * 1-5  user  /home/user/scripts/check_api.sh
+
+# ── Notes ─────────────────────────────────────────────────────────────────────
+
+# 
+
+# Always redirect stderr to avoid cron sending email for every error:
+
+# command >> /var/log/myjob.log 2>&1
+
+# 
+
+# Escape % in commands (cron interprets % as newline):
+
+# date +%Y-%m-%d
+
+# 
+
+# Test a cron command manually first:
+
+# sudo -u www-data /path/to/script.sh
+
+# 
+
+# View cron logs:
+
+# grep CRON /var/log/syslog
+
+# journalctl -u cron
