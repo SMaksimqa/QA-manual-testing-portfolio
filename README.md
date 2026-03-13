@@ -58,7 +58,7 @@
 
 ### 🛡️ Charles Proxy
 
-- Intercept трафика, mock ответов, throttling (на herokuapp.com/login).  
+- Intercept трафика, mock ответов, throttling.  
   [Примеры и скрины](./tools/charles/charles-examples.md)
 
 ### 🐧 Linux Basics
