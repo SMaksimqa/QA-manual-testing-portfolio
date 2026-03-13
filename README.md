@@ -1,53 +1,14 @@
-
-
-
-
-
 # QA Manual & Automation Portfolio 🚀
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=35&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Привет!+Я+Максим;Manual+QA+Engineer;Moscow+%7C+Manual+%2F+Exploratory+%2F+API+testing" alt="Typing SVG" />
+  <a href="https://t.me/hi24"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <a href="mailto:li@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  
 </p>
+Привет! Я Максим, junior QA Engineer (manual + automation). Self-taught + курсы + практика.
 
+Здесь реальные примеры: баг-репорты, тест-кейсы, API-тестирование, UI-автотесты, SQL, Python скрипты, Charles, Linux basics.
 
-<p align="center">
-  <a href="https://t.me/high24"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="mailto:liveestar24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
-
----
-
-### Кто я в двух словах
-
-Junior QA Engineer (Manual + basics Automation, 2025+)  
-Self-taught + курсы + практика. Фокус: ручное тестирование, API, SQL, базовые UI-тесты.  
-Готов к ролям в Москве / Remote.
-
-Ключевые сильные стороны:  
-- Детальные, developer-friendly баг-репорты  
-- Тест-дизайн (boundary, negative, state transitions)  
-- Мобильный веб + Android (Charles)  
-- Accessibility basics (screen readers, contrast)  
-
----
-
-### Что посмотреть в портфолио (самое ценное)
-
-| # | Что именно                              | Почему стоит глянуть                        | Путь в репо                                      | Инструменты / подход                     |
-|---|-----------------------------------------|---------------------------------------------|--------------------------------------------------|------------------------------------------|
-| 1 | Реальные баг-репорты (Booking, Ozon, Kamkombank) | Mobile Web баги, видео + скрины + воспроизведение | /manual-testing/bug-reports                      | Charles, DevTools            |
-| 2 | Чек-листы + тест-кейсы (e-commerce / fintech flows) | Полные user journeys, edge cases            | /manual-testing/checklists-test-cases            |  equivalence classes   |
-| 4 | API testing (Postman коллекции)         | CRUD, auth, negative, response validation   | /api-testing                                     | Postman, Charles proxy                   |
-| 5 | SQL для QA (data validation)            | Проверки после действий пользователя        | /sql                                             | PostgreSQL, joins, aggregates            |
-| 6 | Базовая UI-автоматизация (1 проект)     | Показываю, что базу знаю (Herokuapp login)  | /automation/selenium-basics                      | Selenium, Pytest, Allure — basics        |
-| 7 | Charles Proxy examples                  | Intercept, mock, throttling на реальном трафике | /tools/charles                                   | Charles для web/mobile testing           |
-| 8 | Linux basics                            | Команды, запуск тестов в Ubuntu             | /tools/linux                                     | WSL, bash скрипты                        |
-
-→ [Вся структура репо](https://github.com/SMaksimqa/QA-manual-testing-portfolio/tree/main)
-
----
-
-### Стек 
-
+## 🛠 Стек 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue" alt="Python" />
   <img src="https://img.shields.io/badge/Pytest-9.0-green" alt="Pytest" />
@@ -59,21 +20,61 @@ Self-taught + курсы + практика. Фокус: ручное тести
   <img src="https://img.shields.io/badge/Linux-Basics-grey" alt="Linux" />
 </div>
 
----
+- Ручное тестирование: Bug Reports, Test Cases
+- Автоматизация: Python, Pytest, Selenium, Allure
+- API: Postman (GET/POST/PUT/DELETE, проверки)
+- SQL: JOIN, GROUP BY, фильтры, агрегаты
+- Tools: DevTools, Charles (intercept, mock, throttling), Linux CLI (commands, test run)
 
-### Планы 
+## 📂 Структура репозитория
 
-- Углубить exploratory testing
-- Освоить pytest parametrize и fixture поглубже  
-- Больше реальных проектов (open-source testing)  
- 
+### 🔎 Manual Testing
 
-Готов к Junior Manual QA ролям в Москве / Remote.  
-Пиши в Telegram @high24 — рад обсудить тестирование!
+- Bug Reports: Реальные баги в мобильном вебе.  
+  [Примеры](./manual-testing/bug-reports/)
 
+- Test Cases: Positive/negative сценарии.  
+  [Примеры](./manual-testing/test-cases/)
 
+### 🤖 Automation (UI)
 
-Обновлено: March 2026
+- Selenium + Pytest + Allure: Тесты на логин (positive/negative, waits, reports).  
+  [Код и отчёты](./automation/selenium-pytest-allure/)
 
+### 🌐 API Testing (Postman)
 
+- JSONPlaceholder: GET/POST/PUT/DELETE, проверки статусов/структуры/time.  
+  [Коллекции и примеры](./api-testing/postman/)
 
+### 🐍 Python Examples
+
+- Мини-скрипты: калькулятор, чётные числа, файлы.  
+  [Код](./python-examples/)
+
+### 🗄 SQL
+
+- Запросы: JOIN, GROUP BY, фильтры, агрегаты.  
+  [Примеры](./sql/)
+
+### 🛡️ Charles Proxy
+
+- Intercept трафика, mock ответов, throttling (на herokuapp.com/login).  
+  [Примеры и скрины](./tools/charles/charles-examples.md)
+
+### 🐧 Linux Basics
+
+- Команды: ls/cd/pwd/grep/find/top/ps/df/uptime/ping/apt.  
+- Запуск тестов: venv, pip, pytest + Allure в Ubuntu.  
+  [Примеры и скрипты](./tools/linux/linux-examples.md)
+
+## 📬 Контакты
+
+Telegram: @high24  
+Email: liveestar24@gmail.com  
+<p align="center">
+  <a href="https://t.me/h24"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <a href="mailto:livtar24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  
+</p>
+
+Last updated: March 2026
