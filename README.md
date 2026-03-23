@@ -65,7 +65,7 @@
 
 - Команды: ls/cd/pwd/grep/find/top/ps/df/uptime/ping/apt.  
 - Запуск тестов: venv, pip, pytest + Allure в Ubuntu.  
-  [Примеры и скрипты](./tools/linux/linux-examples.md)
+  [Примеры и скрипты](./tools/linux/)
 
 ## 📬 Контакты
 
