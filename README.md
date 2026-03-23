@@ -59,7 +59,7 @@
 ### 🛡️ Charles Proxy
 
 - Intercept трафика, mock ответов, throttling.  
-  [Примеры и скрины](./tools/charles/charles-examples.md)
+  [Примеры и скрины](./tools/charles/)
 
 ### 🐧 Linux Basics
 
