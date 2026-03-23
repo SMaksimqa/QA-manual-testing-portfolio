@@ -44,7 +44,7 @@
 ### 🌐 API Testing (Postman)
 
 - JSONPlaceholder: GET/POST/PUT/DELETE, проверки статусов/структуры/time.  
-  [Коллекции и примеры](./api-testing/postman/)
+  [Коллекции и примеры](./api-testing/)
 
 ### 🐍 Python Examples
 
