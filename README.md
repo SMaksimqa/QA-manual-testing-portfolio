@@ -39,7 +39,7 @@
 ### 🤖 Automation (UI)
 
 - Selenium + Pytest + Allure: Тесты на логин (positive/negative, waits, reports).  
-  [Код и отчёты](./automation/selenium-pytest-allure/)
+  [Код и отчёты](./automation/selenium-herokuapp-login/)
 
 ### 🌐 API Testing (Postman)
 
