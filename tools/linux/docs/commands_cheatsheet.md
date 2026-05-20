@@ -20,7 +20,9 @@ grep "ERROR" app.log         # search lines with "ERROR"
 grep -i "error" app.log      # case-insensitive search
 grep -r "TODO" .             # recursive search in current folder
 
-processe and resurces
+---
+
+## Processes and resources
 ps aux                       # all running processes
 ps aux | grep python         # filter by name
 top                          # interactive process viewer
